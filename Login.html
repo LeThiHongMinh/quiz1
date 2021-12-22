@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <form id="doubleForm" class="form">
+
+    <div class="op">
+        <button href="#Login" id="Loginshow" class="list">Log In</button>
+        <button href="#Signup" id="Signupshow" class="list">Sign up</button>
+    </div>
+
+   <div id="Login" class="Login column">
+      <div class="input-group">
+        <label for="mail">E-mail</label>
+        <input type="mail" placeholder="ceasyproject@gmail.com" name="mail" id="mail">
+     </div>
+     <div class="input-group">
+        <label for="phone">Phone</label>
+        <input type="password" placeholder="09 XX XX XX XX" name="phone" id="phone">
+     </div>
+   </div>
+
+   <div id="Signup" class="Signup column"> 
+     <div class="input-group">
+        <label for="firstname">First name</label>
+        <input type="text" placeholder="CeaSy" name="firstname" id="firstname">
+     </div>
+     <div class="input-group">
+        <label for="lastname">Last name</label>
+        <input type="text" placeholder="Project" name="lastname" id="lastname">
+     </div>
+     <div class="input-group">
+       <label for="mail">E-mail</label>
+       <input type="mail" placeholder="ceasyproject@gmail.com" name="mail" id="mail">
+    </div>
+    <div class="input-group">
+       <label for="phone">Phone</label>
+       <input type="password" placeholder="09 XX XX XX XX" name="phone" id="phone">
+    </div>
+    <div class="input-group">
+      <label for="phone">ProjetcPassword</label>
+      <input type="password" placeholder="123456" name="phone" id="phone">
+   </div>
+   </div>
+
+   <div class="button-group column">
+      <button id="validate" type="submit" class="hidden button">
+         Submit
+   </button>
+   </div>
+
+</form>
+    <script src="Login.js"></script>
+</body>
+</html>
